@@ -1,0 +1,460 @@
+h1 {
+	font-size: 75px;
+	color: #090A0C;
+	font-family: erasMD;
+
+}
+h2 {
+	font-size: 50px;
+	color: #090A0C;
+	font-family: "Verdana";
+}
+h4 {
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	color: #090A0C;
+}
+
+@font-face {					/* Reference https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_font-face_rule */
+  font-family: erasMD;
+  src: url(ERASM.ttf);
+}
+.head {
+	background-color: #6F7170;
+
+}
+
+body {    /* Sets background colour to yellow*/
+	background-color: #F4E409;
+
+}
+.footer {	/*Sets the properties for the footer */
+	background-color: #6F7170;
+	position: relative;
+  	text-align: center;
+  	width: 100%;
+	float: left;
+
+}
+
+
+#logo {/*Sets resolution ratios to the logos */
+	height: 150px;
+	width: 150px;
+	float: left;
+	top: 0px;
+		
+}
+#rectangle { /* Creates a grey background for the featured products*/
+	height: 20px;
+	width: 250px;
+	float: right;
+	top: 10px;
+	right: 0px;
+	background-color: #090A0C;
+	position: absolute;
+	z-index: -1;
+	filter: blur(15px);
+	opacity: 0.5;
+}
+#title {/* pads the title*/
+	padding-top: 25px;
+}
+#supportingtitle{/* aligns the supporting title*/
+	text-align: right;
+	font-size: 25px;
+	font-family: erasMD;
+	padding-top: -100px;
+	position: relative;
+}
+#centerNAVul {/* Sets properties for ul list attributes*/
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0px;
+  	padding-top: 7px;
+  	padding-bottom: 7px;
+  	border-radius: 5px;
+
+  	background-color: #090A0C;
+}
+#centerNAVli {/*centers individual list entries for nav bar */
+	display: inline;
+	text-align: center;
+}
+
+
+#centerNAVa { /*Decorates text in nav bar */
+	text-decoration: none;
+	font-family: "Verdana";
+	color: #F4F4F4;
+	display: block;	
+	text-align: center;
+	display: inline;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 50%;
+	padding-bottom: 50%;
+
+	}
+#centerNAVa:hover {/* background colour of nav bar changes on hover */
+	background-color: #6F7170;
+}
+
+#featured {	/* Used to style the featured products title*/
+	text-align: center;
+	font-family: erasMD;
+
+}
+hr.breaker {     /* used for breaking layout */
+  border: 5px solid #090A0C;
+  border-radius: 5px;
+}
+.wrapping {        /*changes background colour. used in div tags */
+	background-color: #6F7170
+}
+#rectangle2 {	/* Rectangle used for footer*/
+	height: 425px;
+	width: 100%;
+	float: left;
+	top: 300px;
+	right: 0px;
+	background-color: #6F7170;
+	position: absolute;
+	z-index: -1;
+}
+.dog {	/* Positioning of dog image*/
+	float: right;
+	height: 15%;
+	width: 15%;
+	
+}
+.tile {/* property of tiles in featured products tab*/
+	display:inline-block;
+	padding: 5px;
+}
+.container {/* puts content in center of page*/
+	text-align:center;
+}
+.tile:hover {/* adds a black border when tiles are hovered*/
+	background-color: #090A0C;
+}
+.footerlinks {/*aligns footer links */
+	float: left;
+	list-style-type: none;
+	display: absolute;
+}
+.footerLI { /* aligns footer links*/
+	text-align: left;
+	display: absolute;
+
+}
+.footerA {	/*styles footer links */
+	text-decoration: none;
+	font-family: "Verdana";
+	color: #F4F4F4;
+	text-align: left;
+	display: absolute;
+}
+.footerA:hover {	/*footer links underlined when hovered */
+	text-decoration: underline;
+}
+.table, .th, .td {              /*Reference: w3schools */ /*Content properties for specific inputs */
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+  background-color: #F4F4F4;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ th {	
+ 	font-family: "Verdana";
+ 	font-size: 25px;
+
+
+ }
+ .centeralign {	/*Aligns all content in the center */
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+#push {	/* pushes content via padding*/
+	padding: 100px;
+}
+.leftpanel {/*forces content into the left panel */
+	float: left;
+}
+.leftpanelLI {	/* styles individual list entries for left panel*/
+	text-decoration: none;
+	list-style-type: none;
+	background-color: #090A0C;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "Trebuchet MS";
+	text-align: left;
+	font-size: 25px;
+	color: #F4F4F4;
+
+
+}
+.leftpanelA{/* Styles font of list entries*/
+	text-decoration: none;
+	list-style-type: none;
+	color: #F4F4F4;	
+	text-align: left;
+}
+.leftpanelLI:hover { /* Styles font of list entries on hover*/
+	background-color: #090A0C;
+	color: #F4F4F4;
+
+}
+.leftpanel-LI{   /*different styles for same list */
+	text-decoration: none;
+	list-style-type: none;
+	background-color: #6F7170;
+	padding: 20px 70px;
+	font-family: "Verdana";
+	padding-right: 0px;
+}
+.leftpanel-LI-2{/*different styles for same list */
+	text-decoration: none;
+	list-style-type: none;
+	background-color: #6F7170;
+	padding: 20px 70px;
+	font-family: "Verdana";
+	padding-right: 0px;
+}
+.leftpanel-LI-2-font{/*different styles for same list */
+	float: left
+}
+.leftpanel-LI:hover {/*different styles for same list on hover*/
+	background-color: #3a3a3c;
+	color: #F4F4F4;
+	text-decoration: underline;
+}
+.slider-LI { /* basic style for slider tool on shop page */
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px 70px;	
+	background-color: #090A0c;
+
+}
+.span { /* styles content in span tags with relevant class attribute*/
+	font-family: "Verdana";
+	font-size: 15px;
+	display: inline;
+	padding-left: 20px;
+	color: #F4F4F4;
+
+}
+
+.invis {/* Forces elements in a list to dissapear and be pushed down*/
+	text-decoration: none;
+	margin-bottom: 200%;
+	list-style-type: none;
+
+
+}
+#contacttitle {  /*Font style for contact title*/
+	font-family: "erasMD";
+	font-size: 30px;
+	color: #090A0C;
+	text-align: center;
+}
+.contact-container {       /*Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form */
+ 	border-radius: 5px;   /* Creates a container to apply to all child elements */
+  	background-color: #F4F4F4;
+ 	padding: 20px;
+ 	font-family: "Verdana";
+}
+input[type=text], select, textarea { /*Reference: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form */
+  width: 100%;    /*Styles the physical design of text inputs */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Verdana";
+}
+input[type=submit] {/*Styles the physical design of submit inputs */
+  background-color: #6F7170;
+  font-family: "Verdana";
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input[type=password], select, textarea {/*Styles the physical design of password inputs */
+  width: 100%;
+  display: inline-block;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+  font-family: "Verdana";
+}
+.center {	/*centers content */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-right-color: #090A0C;
+	border-right-style: solid 5px;
+
+}
+.login-button {/*design for the login and signup buttons on login page */
+	text-decoration: none;
+	color: #F4F4F4;
+	padding: 10px 20px;
+	background-color: #090A0c;
+	padding-left: 10px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: "Verdana";
+}
+.legal-go-back { /* Styles the return button on the legal page*/
+	padding: 10px 20px;
+	font-family: "Verdana";
+	background-color: #090A0C;
+	color: #F4F4F4;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+.at-item { /* sets initial properties for css animation*/ /* Reference :https://angrytools.com/css/animation/ */
+    color: #090A0C;
+    animation-name: slide-in;
+    font-family: "Verdana";
+    font-size: 80px;
+    animation-duration: 8s;/*sets duration of animation */
+    animation-iteration-count: infinite;	/*Loops animation */
+    text-align: left;
+}
+
+@keyframes slide-in {/* defines animation in keyframes*/
+    0%{/*At the start, the text will be right, blured and invisible */
+      padding-left: 100px;
+      filter: blur(10px);
+      opacity: 0;
+    }/*slow gradient */
+    50%{/*Halfway through, the text will float to the left, the blur will fade and the opacity will become solid */
+      filter: blur(0);
+      opacity: 1;
+      letter-spacing: 0em;
+      padding-left: 0px;
+    }
+    100%{/*returns to inital state */
+    	padding-left: 100px;
+    	filter: blur(10px);
+    	opacity: 0;
+    }
+}
+
+div.product { /* Sets basic properties for product tiles*/
+  margin: 4px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 150px;
+  background-color: #F4F4F4;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+div.product:hover { /* defines properties for when cursor hovers over product tiles*/
+  border: 1px solid #777;
+  border-radius: 20px;
+}
+
+div.product img {/* defines properties for image in product tiles*/
+  width: 100%;
+  height: auto;
+}
+
+div.desc {/* defines properties for description in product tiles*/
+  padding: 15px;
+  text-align: center;
+}
+div.price { /* defines properties for price in product tiles*/
+  padding: 15px;
+  text-align: center;
+  color: red;
+ }
+.to-cart { /* Takes you to cart*/
+	border-style: none;
+	font-family: "Verdana";
+	color: #F4F4F4;
+	background-color: #090A0C;
+	text-align: center;
+	align-content: center; 
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+	padding-bottom: 5px;
+	top: 10px;
+	z-index: -1;
+
+}
+.to-cart:hover {/* Takes you to cart on hover*/
+	background-color: #6F7170;
+	border-radius: 10px;
+	font-weight: 10px;
+	cursor: pointer;
+}
+.centerDIV {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.product-ul {
+	list-style-type: none;
+}
+.product-tiles {
+	display: inline;
+	float: left;
+	width: 180px;
+	margin: 5px;
+	background-color: #F4F4F4;
+	border-style: solid;
+	text-align: center;
+	padding-left: 10px;
+
+
+}
+table {
+	border-style: solid;
+	background-color: #F4F4F4;
+	padding-left: 25%;
+	padding-right: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.subtotal-actions {
+	text-align: center;
+	list-style-type: none;
+
+}
+#pricing {
+	border-style: solid;
+	background-color: #F4F4F4;
+	position: absolute;
+	padding-left: 25%;
+	padding-right: 25%;
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 10%;
+	right: 10%;
+
+}
